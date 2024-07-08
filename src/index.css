@@ -1,0 +1,156 @@
+body {
+  background-color: #e6f7ff;
+  margin: 0;
+  font-family: 'Gill Sans';
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.pokemonCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.pokemonData {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 260px;
+  height: 220px; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffe4b5; 
+  font-family: 'Arial';
+}
+
+.pokemonData h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.pokemonData h4,
+.pokemonData h5 {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.pokemonData img {
+  max-width: 100px;
+  height: auto;
+}
+
+.title {
+  color: #1E3A8A;
+  font-size: 2.5em; 
+  font-family: 'Trebuchet MS';
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.pokemonCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttonPage {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 10px 20px; /* Some padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 10px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+  width:400px;
+  height:100px;
+}
+
+.buttonPage:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+button:disabled {
+  background-color: #cccccc; /* Grey background */
+  cursor: not-allowed; /* Disabled cursor */
+}
+
+.buttonPageNo {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 10px 20px; /* Some padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 10px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+  width:100px;
+  height:100px;
+}
+
+.buttonPageNo:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+.buttonPageNoCurrent {
+  background-color: #1b3d1c; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 10px 20px; /* Some padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 10px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+  width:100px;
+  height:100px;
+}
+
+.buttonPageNoCurrent:hover {
+  background-color: #45a049; /* Darker green */
+}
